@@ -18,6 +18,7 @@ namespace NameSorter
             foreach (Name name in listOfNames)
             {
                 writer.WriteLine(name.getFullName());
+                Console.WriteLine(name.getFullName());
             }
             writer.Close();
         }
